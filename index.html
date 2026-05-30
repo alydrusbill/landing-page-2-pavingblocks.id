@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Supplier paving block berkualitas untuk Jabodetabek dan Jawa Barat. Tersedia berbagai jenis paving block mutu K200–K500 dengan harga terbaik. Hubungi kami sekarang!">
+<meta name="keywords" content="paving block, paving block Jakarta, paving block Bandung, paving block Bogor, paving block Bekasi, paving block Depok, paving block Jabodetabek, harga paving block, supplier paving block">
+<title>Paving Block Berkualitas Jabodetabek & Jawa Barat | PavingBlocks.id</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --orange: #FF7A3D;
+    --orange-dark: #e05e22;
+    --orange-light: #ff9a6c;
+    --concrete: #555;
+    --concrete-light: #888;
+    --concrete-dark: #333;
+    --off-white: #faf9f7;
+    --white: #fff;
+    --bg-dark: #1a1a1a;
+    --section-gap: 90px;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--off-white);
+    color: var(--concrete-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1,h2,h3,h4 { font-family: 'Barlow Condensed', sans-serif; line-height: 1.1; }
+
+  /* ===== SCROLLBAR ===== */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #eee; }
+  ::-webkit-scrollbar-thumb { background: var(--orange); border-radius: 3px; }
+
+  /* ===== HEADER ===== */
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: rgba(26,26,26,0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid var(--orange);
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  .logo-icon {
+    width: 38px; height: 38px;
+    background: var(--orange);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .logo-icon svg { width: 22px; height: 22px; fill: white; }
+  .logo-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 0.5px;
+  }
+  .logo-text span { color: var(--orange); }
+
+  nav { display: flex; align-items: center; gap: 32px; }
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+    position: relative;
+  }
+  nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0; right: 0;
+    height: 2px;
+    background: var(--orange);
+    transform: scaleX(0);
+    transition: transform 0.2s;
+  }
+  nav a:hover { color: var(--white); }
+  nav a:hover::after { transform: scaleX(1); }
+
+  .nav-cta {
+    background: var(--orange);
+    color: var(--white) !important;
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+  .nav-cta::after { display: none !important; }
+  .nav-cta:hover { background: var(--orange-dark) !important; }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .hamburger span {
+    display: block;
+    width: 24px; height: 2px;
+    background: var(--white);
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+
+  /* ===== HERO ===== */
+  #beranda {
+    min-height: 100vh;
+    background: var(--bg-dark);
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px 5% 60px;
+  }
+
+  .hero-bg-pattern {
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255,122,61,0.07) 39px, rgba(255,122,61,0.07) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,122,61,0.07) 39px, rgba(255,122,61,0.07) 40px);
+    pointer-events: none;
+  }
+
+  .hero-blob {
+    position: absolute;
+    right: -100px; top: 50%;
+    transform: translateY(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,122,61,0.18) 0%, transparent 70%);
+    pointer-events: none;
+    animation: pulse 6s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-50%) scale(1.08); }
+  }
+
+  .hero-content { position: relative; z-index: 1; max-width: 680px; }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,122,61,0.15);
+    border: 1px solid rgba(255,122,61,0.4);
+    color: var(--orange-light);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+    animation: fadeUp 0.6s ease both;
+  }
+  .hero-badge::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--orange);
+    border-radius: 50%;
+    animation: blink 1.5s ease-in-out infinite;
+  }
+  @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+
+  h1.hero-title {
+    font-size: clamp(52px, 7vw, 88px);
+    font-weight: 900;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 0.95;
+    margin-bottom: 24px;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
+  h1.hero-title em {
+    font-style: normal;
+    color: var(--orange);
+    display: block;
+  }
+
+  .hero-sub {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: fadeUp 0.6s 0.2s ease both;
+  }
+  .hero-sub svg { color: var(--orange); flex-shrink: 0; }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    animation: fadeUp 0.6s 0.3s ease both;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--orange);
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: all 0.25s;
+    box-shadow: 0 4px 20px rgba(255,122,61,0.35);
+  }
+  .btn-primary:hover {
+    background: var(--orange-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255,122,61,0.45);
+  }
+  .btn-primary svg { transition: transform 0.2s; }
+  .btn-primary:hover svg { transform: translateX(3px); }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .btn-ghost:hover { color: var(--white); }
+
+  .hero-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    animation: fadeUp 0.6s 0.4s ease both;
+  }
+  .stat-item { text-align: left; }
+  .stat-num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--orange);
+    line-height: 1;
+  }
+  .stat-label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+  .hero-visual {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(4, 70px);
+    gap: 6px;
+    opacity: 0.9;
+    animation: fadeIn 1s 0.5s ease both;
+  }
+  .paving-brick {
+    border-radius: 4px;
+    background: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    transition: all 0.3s;
+  }
+  .paving-brick.orange { background: var(--orange); border-color: var(--orange-dark); }
+  .paving-brick.mid { background: #3a3a3a; border-color: #4a4a4a; }
+
+  @keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:0.9; } }
+
+  /* ===== SECTION COMMON ===== */
+  section { padding: var(--section-gap) 5%; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::before {
+    content: '';
+    width: 28px; height: 2px;
+    background: var(--orange);
+  }
+  .section-title {
+    font-size: clamp(36px, 5vw, 58px);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--concrete-dark);
+    margin-bottom: 16px;
+    line-height: 1;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: var(--concrete-light);
+    max-width: 560px;
+    margin-bottom: 50px;
+    line-height: 1.7;
+  }
+
+  /* ===== PRODUK ===== */
+  #produk { background: var(--white); }
+  .produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+
+  .produk-card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    background: var(--off-white);
+    position: relative;
+  }
+  .produk-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    border-color: var(--orange);
+  }
+
+  .produk-img {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* SVG Paving Illustrations */
+  .paving-illustration { width: 100%; height: 100%; }
+
+  .produk-tag {
+    position: absolute;
+    top: 14px; right: 14px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 100px;
+  }
+
+  .produk-body { padding: 22px; }
+  .produk-body h3 {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: var(--concrete-dark);
+  }
+  .produk-body p { font-size: 14px; color: var(--concrete-light); line-height: 1.6; margin-bottom: 14px; }
+  .produk-specs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .spec-tag {
+    font-size: 11px;
+    background: rgba(255,122,61,0.1);
+    color: var(--orange-dark);
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-weight: 600;
+  }
+
+  /* ===== HARGA ===== */
+  #harga { background: var(--bg-dark); }
+  #harga .section-title { color: var(--white); }
+  #harga .section-desc { color: #888; }
+
+  .harga-table-wrap {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 36px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    background: #232323;
+  }
+  thead tr {
+    background: var(--orange);
+  }
+  thead th {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 16px 20px;
+    text-align: left;
+  }
+  tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.2s;
+  }
+  tbody tr:hover { background: rgba(255,122,61,0.08); }
+  tbody td {
+    padding: 14px 20px;
+    font-size: 15px;
+    color: #ccc;
+  }
+  tbody td:first-child {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+  }
+  tbody td .badge {
+    display: inline-block;
+    font-size: 10px;
+    background: rgba(255,122,61,0.2);
+    color: var(--orange-light);
+    padding: 2px 8px;
+    border-radius: 100px;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  .harga-note {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 28px;
+    line-height: 1.7;
+  }
+  .harga-note strong { color: var(--orange); }
+
+  /* ===== LAYANAN AREA ===== */
+  #layanan { background: var(--off-white); }
+
+  .area-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .area-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 28px;
+    border: 1px solid #e8e8e8;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .area-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: var(--orange);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+  .area-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-color: transparent; }
+  .area-card:hover::before { transform: scaleX(1); }
+  .area-card.featured { border-color: var(--orange); }
+  .area-card.featured::before { transform: scaleX(1); }
+
+  .area-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .area-icon {
+    width: 44px; height: 44px;
+    background: rgba(255,122,61,0.1);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .area-icon svg { color: var(--orange); }
+  .area-card-header h3 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--concrete-dark);
+  }
+  .area-badge {
+    font-size: 10px;
+    background: var(--orange);
+    color: var(--white);
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .area-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .area-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--concrete);
+  }
+  .area-list li::before {
+    content: '';
+    width: 5px; height: 5px;
+    background: var(--orange);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .maps-embed {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 2px solid #e8e8e8;
+    height: 380px;
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .maps-embed iframe {
+    width: 100%; height: 100%; border: 0;
+  }
+
+  /* ===== TESTIMONI ===== */
+  #testimoni { background: var(--white); }
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 22px;
+  }
+  .testi-card {
+    background: var(--off-white);
+    border-radius: 12px;
+    padding: 28px;
+    border-left: 4px solid var(--orange);
+    transition: all 0.3s;
+    position: relative;
+  }
+  .testi-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.07);
+  }
+  .testi-quote-icon {
+    font-size: 48px;
+    color: rgba(255,122,61,0.2);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .testi-text {
+    font-size: 15px;
+    color: var(--concrete);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .testi-author { display: flex; align-items: center; gap: 12px; }
+  .testi-avatar {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .testi-author-info h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--concrete-dark);
+    font-family: 'DM Sans';
+  }
+  .testi-author-info span { font-size: 12px; color: var(--concrete-light); }
+  .testi-stars {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 14px;
+  }
+  .star { color: #FFB800; font-size: 16px; }
+
+  /* ===== KONTAK ===== */
+  #kontak { background: var(--bg-dark); }
+  #kontak .section-title { color: var(--white); }
+  #kontak .section-desc { color: #888; }
+
+  .kontak-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+  }
+
+  .kontak-info { display: flex; flex-direction: column; gap: 22px; }
+  .kontak-item {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .kontak-item-icon {
+    width: 48px; height: 48px;
+    background: rgba(255,122,61,0.15);
+    border: 1px solid rgba(255,122,61,0.3);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .kontak-item-icon svg { color: var(--orange); }
+  .kontak-item-text h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    font-family: 'DM Sans';
+  }
+  .kontak-item-text a, .kontak-item-text p {
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .kontak-item-text a:hover { color: var(--orange); }
+
+  .phone-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25D366;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    transition: all 0.25s;
+    margin-top: 8px;
+    width: fit-content;
+  }
+  .phone-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(37,211,102,0.3); }
+
+  .kontak-form { display: flex; flex-direction: column; gap: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .form-group { display: flex; flex-direction: column; gap: 8px; }
+  .form-group label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    transition: border-color 0.2s;
+    outline: none;
+    width: 100%;
+    appearance: none;
+  }
+  .form-group input::placeholder,
+  .form-group textarea::placeholder { color: #555; }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--orange); }
+  .form-group select option { background: #232323; color: var(--white); }
+  .form-group textarea { resize: vertical; min-height: 110px; }
+  .btn-submit {
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: 0 4px 18px rgba(255,122,61,0.3);
+  }
+  .btn-submit:hover { background: var(--orange-dark); transform: translateY(-2px); }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: #111;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 48px 5% 28px;
+  }
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .footer-brand p { font-size: 14px; color: #666; line-height: 1.8; margin-top: 14px; max-width: 280px; }
+  .footer-nav h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  .footer-nav ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-nav a { font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
+  .footer-nav a:hover { color: var(--orange); }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-bottom p { font-size: 13px; color: #555; }
+  .footer-bottom span { color: var(--orange); }
+  .footer-badges { display: flex; gap: 10px; }
+  .footer-badge {
+    font-size: 11px;
+    color: #555;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== FLOAT WA BUTTON ===== */
+  .wa-float {
+    position: fixed;
+    bottom: 28px; right: 28px;
+    background: #25D366;
+    color: var(--white);
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 24px rgba(37,211,102,0.4);
+    z-index: 999;
+    transition: all 0.3s;
+    text-decoration: none;
+    animation: bounce 3s ease-in-out infinite;
+  }
+  .wa-float:hover { transform: scale(1.1); box-shadow: 0 10px 32px rgba(37,211,102,0.5); }
+  @keyframes bounce {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  .wa-float svg { width: 30px; height: 30px; }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px) {
+    nav { display: none; }
+    nav.open {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 68px; left: 0; right: 0;
+      background: rgba(26,26,26,0.98);
+      padding: 20px 5%;
+      gap: 18px;
+      align-items: flex-start;
+      border-bottom: 1px solid #333;
+    }
+    .hamburger { display: flex; }
+    .hero-visual { display: none; }
+    .kontak-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .hero-stats { gap: 24px; flex-wrap: wrap; }
+  }
+
+  @media (max-width: 600px) {
+    :root { --section-gap: 60px; }
+    .footer-top { grid-template-columns: 1fr; }
+    .hero-stats { gap: 20px; }
+    .footer-bottom { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20menanyakan%20harga%20paving%20block" class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <a href="#beranda" class="logo" aria-label="PavingBlocks.id">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24"><path d="M2 2h9v9H2V2zm11 0h9v9h-9V2zM2 13h9v9H2v-9zm11 0h9v9h-9v-9z"/></svg>
+    </div>
+    <span class="logo-text">Paving<span>Blocks</span>.id</span>
+  </a>
+  <nav id="main-nav">
+    <a href="#beranda">Beranda</a>
+    <a href="#produk">Produk</a>
+    <a href="#harga">Harga</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#kontak" class="nav-cta">Kontak</a>
+  </nav>
+  <button class="hamburger" id="hamburger-btn" aria-label="Menu" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="beranda">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-blob"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span>Supplier Terpercaya Sejak 2008</span>
+    </div>
+    <h1 class="hero-title">
+      Paving Block
+      <em>Berkualitas</em>
+      Terbaik
+    </h1>
+    <p class="hero-sub">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Melayani Jabodetabek, Bandung & seluruh Jawa Barat — pengiriman cepat ke lokasi proyek
+    </p>
+    <div class="hero-actions">
+      <a href="#harga" class="btn-primary">
+        Lihat Harga
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="https://wa.me/6281234567890" class="btn-ghost" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.17 6.17l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Chat WhatsApp
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Proyek Selesai</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Kota Layanan</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">K500</div>
+        <div class="stat-label">Mutu Tertinggi</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Decorative paving grid -->
+  <div class="hero-visual" aria-hidden="true">
+    <div class="paving-brick orange"></div>
+    <div class="paving-brick mid"></div>
+    <div class="paving-brick"></div>
+    <div class="paving-brick orange"></div>
+    <div class="paving-brick"></div>
+    <div class="paving-brick orange"></div>
+    <div class="paving-brick mid"></div>
+    <div class="paving-brick"></div>
+    <div class="paving-brick mid"></div>
+    <div class="paving-brick"></div>
+    <div class="paving-brick orange"></div>
+    <div class="paving-brick mid"></div>
+    <div class="paving-brick orange"></div>
+    <div class="paving-brick mid"></div>
+    <div class="paving-brick"></div>
+    <div class="paving-brick orange"></div>
+  </div>
+</section>
+
+<!-- ===== PRODUK ===== -->
+<section id="produk">
+  <div class="section-label">Jenis Produk</div>
+  <h2 class="section-title">Pilihan Paving Block Kami</h2>
+  <p class="section-desc">Tersedia dalam berbagai bentuk dan mutu beton, cocok untuk jalan, taman, hingga area industri. Semua produk bersertifikat SNI.</p>
+
+  <div class="produk-grid">
+
+    <!-- Bata -->
+    <article class="produk-card">
+      <div class="produk-img">
+        <svg class="paving-illustration" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+          <rect width="280" height="200" fill="#2a2a2a"/>
+          <rect x="10" y="30" width="120" height="60" rx="4" fill="#444"/>
+          <rect x="14" y="34" width="112" height="52" rx="3" fill="#555"/>
+          <rect x="140" y="30" width="130" height="60" rx="4" fill="#FF7A3D"/>
+          <rect x="144" y="34" width="122" height="52" rx="3" fill="#ff9a6c"/>
+          <rect x="10" y="100" width="80" height="60" rx="4" fill="#FF7A3D"/>
+          <rect x="14" y="104" width="72" height="52" rx="3" fill="#ff9a6c"/>
+          <rect x="100" y="100" width="80" height="60" rx="4" fill="#444"/>
+          <rect x="104" y="104" width="72" height="52" rx="3" fill="#555"/>
+          <rect x="190" y="100" width="80" height="60" rx="4" fill="#444"/>
+          <rect x="194" y="104" width="72" height="52" rx="3" fill="#555"/>
+          <text x="140" y="180" text-anchor="middle" fill="#FF7A3D" font-family="Barlow Condensed" font-size="13" font-weight="700" letter-spacing="2">PAVING BATA</text>
+        </svg>
+        <span class="produk-tag">Terlaris</span>
+      </div>
+      <div class="produk-body">
+        <h3>Paving Bata</h3>
+        <p>Bentuk persegi panjang klasik, ideal untuk parkiran, jalanan perumahan, dan halaman industri. Pemasangan cepat dan rapi.</p>
+        <div class="produk-specs">
+          <span class="spec-tag">20×10×6 cm</span>
+          <span class="spec-tag">20×10×8 cm</span>
+          <span class="spec-tag">K200–K400</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Hexagon -->
+    <article class="produk-card">
+      <div class="produk-img">
+        <svg class="paving-illustration" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+          <rect width="280" height="200" fill="#2a2a2a"/>
+          <polygon points="80,30 110,14 140,30 140,62 110,78 80,62" fill="#555"/>
+          <polygon points="83,32 110,17 137,32 137,60 110,75 83,60" fill="#666"/>
+          <polygon points="140,30 170,14 200,30 200,62 170,78 140,62" fill="#FF7A3D"/>
+          <polygon points="143,32 170,17 197,32 197,60 170,75 143,60" fill="#ff9a6c"/>
+          <polygon points="200,30 230,14 260,30 260,62 230,78 200,62" fill="#555"/>
+          <polygon points="203,32 230,17 257,32 257,60 230,75 203,60" fill="#666"/>
+          <polygon points="20,78 50,62 80,78 80,110 50,126 20,110" fill="#FF7A3D"/>
+          <polygon points="23,80 50,65 77,80 77,108 50,123 23,108" fill="#ff9a6c"/>
+          <polygon points="110,78 140,62 170,78 170,110 140,126 110,110" fill="#555"/>
+          <polygon points="113,80 140,65 167,80 167,108 140,123 113,108" fill="#444"/>
+          <polygon points="200,78 230,62 260,78 260,110 230,126 200,110" fill="#FF7A3D"/>
+          <polygon points="203,80 230,65 257,80 257,108 230,123 203,108" fill="#ff9a6c"/>
+          <text x="140" y="170" text-anchor="middle" fill="#FF7A3D" font-family="Barlow Condensed" font-size="13" font-weight="700" letter-spacing="2">PAVING HEXAGON</text>
+        </svg>
+      </div>
+      <div class="produk-body">
+        <h3>Paving Hexagon</h3>
+        <p>Desain segi enam modern untuk taman, plaza, dan area publik. Tampilan unik dan estetis, anti-selip, cocok untuk area pedestrian.</p>
+        <div class="produk-specs">
+          <span class="spec-tag">20×6 cm</span>
+          <span class="spec-tag">K200–K350</span>
+          <span class="spec-tag">Dekoratif</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Cacing -->
+    <article class="produk-card">
+      <div class="produk-img">
+        <svg class="paving-illustration" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+          <rect width="280" height="200" fill="#2a2a2a"/>
+          <ellipse cx="60" cy="55" rx="45" ry="22" fill="#555"/>
+          <ellipse cx="60" cy="52" rx="42" ry="19" fill="#666"/>
+          <ellipse cx="155" cy="55" rx="45" ry="22" fill="#FF7A3D"/>
+          <ellipse cx="155" cy="52" rx="42" ry="19" fill="#ff9a6c"/>
+          <ellipse cx="250" cy="55" rx="25" ry="22" fill="#555"/>
+          <ellipse cx="250" cy="52" rx="22" ry="19" fill="#444"/>
+          <ellipse cx="20" cy="115" rx="15" ry="22" fill="#FF7A3D"/>
+          <ellipse cx="20" cy="112" rx="12" ry="19" fill="#ff9a6c"/>
+          <ellipse cx="100" cy="115" rx="45" ry="22" fill="#555"/>
+          <ellipse cx="100" cy="112" rx="42" ry="19" fill="#444"/>
+          <ellipse cx="210" cy="115" rx="55" ry="22" fill="#FF7A3D"/>
+          <ellipse cx="210" cy="112" rx="52" ry="19" fill="#ff9a6c"/>
+          <text x="140" y="175" text-anchor="middle" fill="#FF7A3D" font-family="Barlow Condensed" font-size="13" font-weight="700" letter-spacing="2">PAVING CACING</text>
+        </svg>
+      </div>
+      <div class="produk-body">
+        <h3>Paving Cacing</h3>
+        <p>Bentuk S-interlock yang saling mengunci kuat, sangat cocok untuk area dengan beban berat seperti jalan truk, pabrik, dan pelabuhan.</p>
+        <div class="produk-specs">
+          <span class="spec-tag">22×11×8 cm</span>
+          <span class="spec-tag">K300–K500</span>
+          <span class="spec-tag">Heavy Duty</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Rumput -->
+    <article class="produk-card">
+      <div class="produk-img">
+        <svg class="paving-illustration" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+          <rect width="280" height="200" fill="#2a2a2a"/>
+          <!-- Grass paving grid -->
+          <rect x="10" y="20" width="70" height="70" rx="6" fill="#444"/>
+          <rect x="20" y="30" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="50" y="30" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="20" y="60" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="50" y="60" width="20" height="20" rx="3" fill="#2E7D32"/>
+
+          <rect x="100" y="20" width="70" height="70" rx="6" fill="#FF7A3D"/>
+          <rect x="110" y="30" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="140" y="30" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="110" y="60" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="140" y="60" width="20" height="20" rx="3" fill="#388E3C"/>
+
+          <rect x="190" y="20" width="70" height="70" rx="6" fill="#444"/>
+          <rect x="200" y="30" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="230" y="30" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="200" y="60" width="20" height="20" rx="3" fill="#2E7D32"/>
+          <rect x="230" y="60" width="20" height="20" rx="3" fill="#2E7D32"/>
+
+          <rect x="10" y="105" width="70" height="70" rx="6" fill="#FF7A3D"/>
+          <rect x="20" y="115" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="50" y="115" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="20" y="145" width="20" height="20" rx="3" fill="#388E3C"/>
+          <rect x="50" y="145" width="20" height="20" rx="3" fill="#388E3C"/>
+
+          <rect x="100" y="105" width="70" height="70" rx="6" fill="#444"/>
+          <rect x="190" y="105" width="70" height="70" rx="6" fill="#FF7A3D"/>
+          <text x="140" y="192" text-anchor="middle" fill="#FF7A3D" font-family="Barlow Condensed" font-size="13" font-weight="700" letter-spacing="2">PAVING RUMPUT</text>
+        </svg>
+      </div>
+      <div class="produk-body">
+        <h3>Paving Rumput</h3>
+        <p>Paving berlubang untuk area hijau, memungkinkan rumput tumbuh di antara celah. Ideal untuk taman, area parkir hijau, dan drainase alami.</p>
+        <div class="produk-specs">
+          <span class="spec-tag">40×40×8 cm</span>
+          <span class="spec-tag">K200–K300</span>
+          <span class="spec-tag">Eco Friendly</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== HARGA ===== -->
+<section id="harga">
+  <div class="section-label">Tabel Harga</div>
+  <h2 class="section-title">Harga Paving Block 2026</h2>
+  <p class="section-desc">Harga sudah termasuk ongkos kirim area Jabodetabek. Area lain hubungi kami untuk penawaran khusus.</p>
+
+  <div class="harga-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Mutu Beton</th>
+          <th>Jenis</th>
+          <th>Ketebalan</th>
+          <th>Harga/m²</th>
+          <th>Cocok Untuk</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>K200</td>
+          <td>Bata / Hexagon / Rumput</td>
+          <td>6 cm</td>
+          <td>Rp 75.000</td>
+          <td>Taman, pedestrian ringan</td>
+        </tr>
+        <tr>
+          <td>K250</td>
+          <td>Bata / Hexagon</td>
+          <td>6–8 cm</td>
+          <td>Rp 90.000</td>
+          <td>Parkiran motor, perumahan</td>
+        </tr>
+        <tr>
+          <td>K300 <span class="badge">Populer</span></td>
+          <td>Bata / Cacing / Hexagon</td>
+          <td>8 cm</td>
+          <td>Rp 115.000</td>
+          <td>Parkiran mobil, ruko, kantor</td>
+        </tr>
+        <tr>
+          <td>K350</td>
+          <td>Bata / Cacing</td>
+          <td>8 cm</td>
+          <td>Rp 135.000</td>
+          <td>Jalan lingkungan, kawasan industri</td>
+        </tr>
+        <tr>
+          <td>K400</td>
+          <td>Cacing / Bata</td>
+          <td>10 cm</td>
+          <td>Rp 160.000</td>
+          <td>Jalan truk, gudang, pabrik</td>
+        </tr>
+        <tr>
+          <td>K500 <span class="badge">Premium</span></td>
+          <td>Cacing</td>
+          <td>10–12 cm</td>
+          <td>Rp 195.000</td>
+          <td>Pelabuhan, bandara, beban berat</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="harga-note">
+    ⚠️ <strong>Catatan:</strong> Harga bersifat estimasi dan dapat berubah sesuai volume pesanan, lokasi pengiriman, dan ketersediaan stok.
+    Minimal pemesanan <strong>100 m²</strong>. Diskon khusus untuk proyek &gt; 500 m². Hubungi kami untuk penawaran resmi.
+  </p>
+
+  <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20meminta%20penawaran%20harga%20paving%20block" class="btn-primary" target="_blank">
+    Minta Penawaran
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
+</section>
+
+<!-- ===== LAYANAN & AREA ===== -->
+<section id="layanan">
+  <div class="section-label">Area Layanan</div>
+  <h2 class="section-title">Jangkauan Distribusi</h2>
+  <p class="section-desc">Armada pengiriman kami siap menjangkau proyek Anda di Jabodetabek, Bandung, dan seluruh Jawa Barat.</p>
+
+  <div class="area-grid">
+
+    <div class="area-card featured">
+      <div class="area-card-header">
+        <div class="area-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        </div>
+        <div>
+          <h3>DKI Jakarta</h3>
+          <span class="area-badge">Fokus Utama</span>
+        </div>
+      </div>
+      <ul class="area-list">
+        <li>Jakarta Pusat</li>
+        <li>Jakarta Utara</li>
+        <li>Jakarta Barat</li>
+        <li>Jakarta Selatan</li>
+        <li>Jakarta Timur</li>
+      </ul>
+    </div>
+
+    <div class="area-card featured">
+      <div class="area-card-header">
+        <div class="area-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        </div>
+        <div>
+          <h3>Jawa Barat</h3>
+          <span class="area-badge">Fokus Utama</span>
+        </div>
+      </div>
+      <ul class="area-list">
+        <li>Bandung & Cimahi</li>
+        <li>Bogor & Sekitarnya</li>
+        <li>Depok</li>
+        <li>Bekasi & Karawang</li>
+        <li>Sukabumi</li>
+        <li>Cirebon</li>
+      </ul>
+    </div>
+
+    <div class="area-card">
+      <div class="area-card-header">
+        <div class="area-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div>
+          <h3>Jawa Tengah</h3>
+        </div>
+      </div>
+      <ul class="area-list">
+        <li>Semarang (estimasi khusus)</li>
+        <li>Solo & Yogyakarta</li>
+        <li>Purwokerto</li>
+      </ul>
+    </div>
+
+    <div class="area-card">
+      <div class="area-card-header">
+        <div class="area-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16,8 20,8 23,11 23,16 16,16 16,8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <div>
+          <h3>Jawa Timur</h3>
+        </div>
+      </div>
+      <ul class="area-list">
+        <li>Surabaya (hubungi kami)</li>
+        <li>Sidoarjo & Malang</li>
+        <li>Volume proyek besar</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Google Maps Embed -->
+  <div class="maps-embed">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0!2d106.8!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Lokasi Gudang PavingBlocks.id - Jabodetabek"
+      aria-label="Peta lokasi gudang dan area distribusi PavingBlocks.id">
+    </iframe>
+  </div>
+</section>
+
+<!-- ===== TESTIMONI ===== -->
+<section id="testimoni">
+  <div class="section-label">Testimoni Klien</div>
+  <h2 class="section-title">Dipercaya Ratusan Proyek</h2>
+  <p class="section-desc">Apa kata klien kami dari Jabodetabek hingga Bandung tentang kualitas dan layanan PavingBlocks.id.</p>
+
+  <div class="testi-grid">
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Paving block K300 untuk parkiran ruko kami di Cibubur kualitasnya sangat memuaskan. Pengiriman tepat waktu dan tim pemasangan profesional. Sudah 2 tahun tidak ada yang retak atau amblas.</p>
+      <div class="testi-author">
+        <div class="testi-avatar">BR</div>
+        <div class="testi-author-info">
+          <h4>Budi Rahardjo</h4>
+          <span>Pemilik Ruko — Cibubur, Jakarta Timur</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Kami order paving hexagon untuk area plaza perumahan di Bandung Barat. Hasilnya sangat estetis dan kuat. Responsnya cepat, harga kompetitif, dan tidak ada biaya tersembunyi. Recommended!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">DW</div>
+        <div class="testi-author-info">
+          <h4>Dian Wulandari</h4>
+          <span>Developer Properti — Bandung Barat</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Sudah 3 kali order untuk proyek jalan di kawasan industri Bekasi. Paving cacing K400-nya tahan untuk dilintasi truk berat tiap hari. Mitra terpercaya untuk proyek infrastruktur skala besar.</p>
+      <div class="testi-author">
+        <div class="testi-avatar">HS</div>
+        <div class="testi-author-info">
+          <h4>Hendra Santoso</h4>
+          <span>Kontraktor Infrastruktur — Bekasi</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Pilihan paving rumput untuk area parkir hijau kantor kami di Depok benar-benar sesuai ekspektasi. Ramah lingkungan, drainage bagus, dan tampilannya profesional. Akan repeat order!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">AN</div>
+        <div class="testi-author-info">
+          <h4>Annisa Nurul</h4>
+          <span>Manajer Fasilitas — Depok, Jawa Barat</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Proyek jalan perumahan cluster di Bogor Timur menggunakan 2.000 m² paving bata K250. Kualitas SNI terjamin, sertifikat mutu disertakan. Proses order online juga sangat mudah lewat WhatsApp.</p>
+      <div class="testi-author">
+        <div class="testi-avatar">RP</div>
+        <div class="testi-author-info">
+          <h4>Rizki Pratama</h4>
+          <span>Kontraktor Perumahan — Bogor Timur</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="testi-quote-icon">"</div>
+      <p class="testi-text">Kami gunakan paving block K500 untuk area loading dock gudang logistik di Tangerang Selatan. Sudah 18 bulan dan kondisi sempurna meski dilalui forklift setiap hari. Kualitas nomor satu!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">FY</div>
+        <div class="testi-author-info">
+          <h4>Fajar Yudistira</h4>
+          <span>Manajer Logistik — Tangerang Selatan</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== KONTAK ===== -->
+<section id="kontak">
+  <div class="section-label">Hubungi Kami</div>
+  <h2 class="section-title">Siap Melayani Proyek Anda</h2>
+  <p class="section-desc">Dapatkan penawaran harga terbaik dan konsultasi gratis. Tim kami siap membantu Senin–Sabtu, 07.00–17.00 WIB.</p>
+
+  <div class="kontak-grid">
+    <div class="kontak-info">
+      <div class="kontak-item">
+        <div class="kontak-item-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.17 6.17l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <div class="kontak-item-text">
+          <h4>Telepon / WhatsApp</h4>
+          <a href="tel:+6281234567890">+62 812-3456-7890</a>
+        </div>
+      </div>
+
+      <div class="kontak-item">
+        <div class="kontak-item-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div class="kontak-item-text">
+          <h4>Email</h4>
+          <a href="mailto:info@pavingblocks.id">info@pavingblocks.id</a>
+        </div>
+      </div>
+
+      <div class="kontak-item">
+        <div class="kontak-item-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="kontak-item-text">
+          <h4>Alamat Gudang Utama</h4>
+          <p>Jl. Raya Industri No. 88, Cakung,<br>Jakarta Timur 13960</p>
+        </div>
+      </div>
+
+      <div class="kontak-item">
+        <div class="kontak-item-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+        </div>
+        <div class="kontak-item-text">
+          <h4>Jam Operasional</h4>
+          <p>Senin – Sabtu: 07.00 – 17.00 WIB<br>Minggu: Konsultasi via WhatsApp</p>
+        </div>
+      </div>
+
+      <a href="https://wa.me/6281234567890?text=Halo%20PavingBlocks.id,%20saya%20ingin%20konsultasi%20paving%20block" class="phone-cta" target="_blank" rel="noopener">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat WhatsApp Sekarang
+      </a>
+    </div>
+
+    <!-- Form Kontak -->
+    <div>
+      <div class="kontak-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="telepon">No. Telepon / WA</label>
+            <input type="tel" id="telepon" name="telepon" placeholder="08xx-xxxx-xxxx" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="email@anda.com" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="kota">Kota Pengiriman</label>
+          <select id="kota" name="kota">
+            <option value="">-- Pilih Kota --</option>
+            <optgroup label="DKI Jakarta">
+              <option>Jakarta Pusat</option>
+              <option>Jakarta Utara</option>
+              <option>Jakarta Barat</option>
+              <option>Jakarta Selatan</option>
+              <option>Jakarta Timur</option>
+            </optgroup>
+            <optgroup label="Jawa Barat">
+              <option>Bekasi</option>
+              <option>Depok</option>
+              <option>Bogor</option>
+              <option>Bandung</option>
+              <option>Cimahi</option>
+              <option>Sukabumi</option>
+              <option>Cirebon</option>
+            </optgroup>
+            <optgroup label="Banten">
+              <option>Tangerang</option>
+              <option>Tangerang Selatan</option>
+              <option>Serang</option>
+            </optgroup>
+            <option>Kota Lain</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="jenis">Jenis Paving</label>
+            <select id="jenis" name="jenis">
+              <option value="">-- Pilih Jenis --</option>
+              <option>Paving Bata</option>
+              <option>Paving Hexagon</option>
+              <option>Paving Cacing</option>
+              <option>Paving Rumput</option>
+              <option>Belum tahu / mix</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="volume">Volume (m²)</label>
+            <input type="text" id="volume" name="volume" placeholder="Contoh: 500 m²">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pesan">Keterangan Tambahan</label>
+          <textarea id="pesan" name="pesan" placeholder="Jelaskan kebutuhan proyek Anda (lokasi, mutu yang diinginkan, jadwal pengiriman, dll)..."></textarea>
+        </div>
+        <button class="btn-submit" type="button" onclick="submitForm()">
+          Kirim Permintaan
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+        <div id="form-success" style="display:none; margin-top:16px; padding:14px 18px; background:rgba(37,211,102,0.15); border:1px solid rgba(37,211,102,0.3); border-radius:8px; color:#4ade80; font-size:14px; font-weight:500;">
+          ✅ Terima kasih! Pesan Anda telah terkirim. Tim kami akan menghubungi dalam 1×24 jam.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#beranda" class="logo" style="display:inline-flex;">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M2 2h9v9H2V2zm11 0h9v9h-9V2zM2 13h9v9H2v-9zm11 0h9v9h-9v-9z"/></svg>
+        </div>
+        <span class="logo-text" style="font-size:18px;">Paving<span>Blocks</span>.id</span>
+      </a>
+      <p>Supplier paving block berkualitas SNI untuk Jabodetabek dan Jawa Barat. Mutu terjamin, harga kompetitif, pengiriman tepat waktu sejak 2008.</p>
+    </div>
+    <div class="footer-nav">
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#harga">Harga</a></li>
+        <li><a href="#layanan">Area Layanan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <h4>Produk</h4>
+      <ul>
+        <li><a href="#produk">Paving Bata</a></li>
+        <li><a href="#produk">Paving Hexagon</a></li>
+        <li><a href="#produk">Paving Cacing</a></li>
+        <li><a href="#produk">Paving Rumput</a></li>
+        <li><a href="#harga">Tabel Harga K200–K500</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 <span>PavingBlocks.id</span>. Hak cipta dilindungi undang-undang.</p>
+    <div class="footer-badges">
+      <span class="footer-badge">SNI Certified</span>
+      <span class="footer-badge">ISO 9001</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== JSON-LD Schema Markup ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "PavingBlocks.id",
+  "description": "Supplier paving block berkualitas SNI untuk Jabodetabek, Bandung, dan Jawa Barat. Tersedia paving bata, hexagon, cacing, dan rumput mutu K200–K500.",
+  "url": "https://pavingblocks.id",
+  "telephone": "+62-812-3456-7890",
+  "email": "info@pavingblocks.id",
+  "foundingDate": "2008",
+  "priceRange": "Rp 75.000 – Rp 195.000 per m²",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Raya Industri No. 88, Cakung",
+    "addressLocality": "Jakarta Timur",
+    "addressRegion": "DKI Jakarta",
+    "postalCode": "13960",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.2,
+    "longitude": 106.8
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "07:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": [
+    { "@type": "City", "name": "Jakarta" },
+    { "@type": "City", "name": "Bekasi" },
+    { "@type": "City", "name": "Bogor" },
+    { "@type": "City", "name": "Depok" },
+    { "@type": "City", "name": "Tangerang" },
+    { "@type": "City", "name": "Bandung" },
+    { "@type": "City", "name": "Sukabumi" },
+    { "@type": "City", "name": "Cirebon" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Paving Block",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Paving Block Bata K200", "description": "Paving bata mutu K200, ukuran 20x10x6 cm" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Paving Block Hexagon K250", "description": "Paving hexagon mutu K250" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Paving Block Cacing K300", "description": "Paving cacing interlock mutu K300, 8 cm" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Paving Block Rumput K200", "description": "Paving rumput berlubang mutu K200, 40x40 cm" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Paving Block K500 Premium", "description": "Paving cacing mutu K500 untuk beban berat, industri" }}
+    ]
+  },
+  "sameAs": [
+    "https://www.instagram.com/pavingblocks.id",
+    "https://www.tokopedia.com/pavingblocks"
+  ]
+}
+</script>
+
+<script>
+  // Nav toggle
+  function toggleNav() {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('open');
+  }
+
+  // Close nav on link click (mobile)
+  document.querySelectorAll('#main-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('main-nav').classList.remove('open');
+    });
+  });
+
+  // Header scroll effect
+  const header = document.querySelector('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 60) {
+      header.style.background = 'rgba(17,17,17,0.98)';
+    } else {
+      header.style.background = 'rgba(26,26,26,0.96)';
+    }
+  });
+
+  // Animate paving bricks on hover
+  document.querySelectorAll('.paving-brick').forEach(brick => {
+    brick.addEventListener('mouseenter', () => {
+      brick.style.transform = 'scale(0.92)';
+    });
+    brick.addEventListener('mouseleave', () => {
+      brick.style.transform = 'scale(1)';
+    });
+  });
+
+  // Form submission
+  function submitForm() {
+    const nama = document.getElementById('nama').value.trim();
+    const telepon = document.getElementById('telepon').value.trim();
+    if (!nama || !telepon) {
+      alert('Mohon isi nama dan nomor telepon Anda terlebih dahulu.');
+      return;
+    }
+    const kota = document.getElementById('kota').value;
+    const jenis = document.getElementById('jenis').value;
+    const volume = document.getElementById('volume').value;
+    const pesan = document.getElementById('pesan').value;
+    const msg = `Halo PavingBlocks.id, saya ${nama} ingin konsultasi:%0A` +
+      `📍 Kota: ${kota || '-'}%0A` +
+      `🧱 Jenis: ${jenis || '-'}%0A` +
+      `📐 Volume: ${volume || '-'}%0A` +
+      `📝 Keterangan: ${pesan || '-'}%0A` +
+      `📞 No. Telp: ${telepon}`;
+    window.open(`https://wa.me/6281234567890?text=${msg}`, '_blank');
+    document.getElementById('form-success').style.display = 'block';
+  }
+
+  // Intersection Observer for fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.produk-card, .area-card, .testi-card, .kontak-item').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(24px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
